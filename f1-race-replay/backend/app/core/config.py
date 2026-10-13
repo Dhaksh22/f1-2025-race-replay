@@ -17,6 +17,12 @@ class Settings:
         extra_origins = os.getenv("CORS_EXTRA_ORIGINS", "")
         origins: List[str] = [
             self.frontend_origin,
+
+            # Vercel production and preview deployments
+            "https://f1-2025-race-replay-lwny.vercel.app",
+            "https://f1-2025-race-replay-lwny-m6bhyseuu-dks19.vercel.app",
+
+            # Local development
             "http://localhost:5173",
             "http://127.0.0.1:5173",
             "http://localhost:3000",
