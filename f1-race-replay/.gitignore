@@ -1,0 +1,121 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+f1_env/
+ENV/
+qt_test/
+**/qt_test/
+f1-race-replay/qt_test/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# ==============================
+# Python IDEs and tools
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ==============================
+# FastF1 cache and computed data
+# ==============================
+.fastf1-cache/
+**/.fastf1-cache/
+computed_data/*.pkl
+data/processed/
+
+# ==============================
+# Machine learning artifacts
+# ==============================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+
+# ==============================
+# Node.js and frontend
+# ==============================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+dist/
+.next/
+.nuxt/
+.output/
+coverage/
+*.local
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==============================
+# IDE and operating system
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Build and generated files
+# ==============================
+*.spec
+*.manifest
+*.pyi~
+
+# ==============================
+# Optional local configuration
+# ==============================
+.streamlit/secrets.toml
+qt_test/
+**/qt_test/
+venv/
+.venv/
+__pycache__/
+node_modules/

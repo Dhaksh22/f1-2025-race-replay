@@ -1,0 +1,51 @@
+@"
+# Python virtual environments
+qt_test/
+venv/
+.venv/
+env/
+f1_env/
+ENV/
+**/qt_test/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node dependencies and builds
+node_modules/
+frontend/dist/
+frontend/.vite/
+.next/
+dist/
+build/
+
+# FastF1 cache and generated data
+.fastf1-cache/
+computed_data/*.pkl
+data/processed/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tests and logs
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+"@ | Set-Content -Encoding utf8 .gitignore
+qt_test/
+**/qt_test/
+venv/
+.venv/
+__pycache__/
+node_modules/

@@ -1,0 +1,9 @@
+# Testing and Verification
+pytest>=7.4.0
+pytest-mock>=3.12.0
+httpx>=0.27.0
+
+# Code Quality
+black>=23.7.0
+flake8>=6.1.0
+mypy>=1.5.0
